@@ -1,6 +1,14 @@
-#include <stdio.h>
+#include "../lib/mara/mara.h"
 
 int main(void) {
-	printf("hello, world\n");
+
+	openLog();
+
+	str* testString = stringInit("test");
+	mPrint(testString);
+	destroy(testString);
+
+	closeLog();
+
 	return 0;
 }

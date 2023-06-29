@@ -1,6 +1,9 @@
+# Log files
+*.log
+
 # Compiled binaries
 ./bin/*
-
+*.run
 
 # Prerequisites
 *.d
